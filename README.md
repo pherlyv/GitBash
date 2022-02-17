@@ -62,3 +62,23 @@ The total area of the country is 242,500 sq. km. The population is over 67 milli
    * вместо `set_your_String` вводим свое имя.
    * вместо `set_your_number` вводим свой возраст.
    * ответ `["Tima","24"]`.
+
+2. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13.
+   * создать файл, команда `touch script`.
+   * открыть файл, команда `vim script`.
+   * нажать клавишу `i`.
+```css
+#!/bin/bash
+pwd
+mkdir group_27_1
+cd group_27_1
+mkdir F_{1,2,3}
+cd F_1
+touch name{1,2,3}.txt name{1,2}.json
+mkdir folder{1,2,3}
+ls -1
+mv name3.txt name1.json folder1
+```
+  * нажать клавишу `Esc`, ввести команду `:wq`.
+  * сделать файл исполняемым `chmod +x ./script`.
+  * запустить скрипт `./script`
