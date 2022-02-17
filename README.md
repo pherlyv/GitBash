@@ -51,3 +51,14 @@ The total area of the country is 242,500 sq. km. The population is over 67 milli
     * ввести команду `less name.txt`.
 20. Вывести дату и время
     * ввести команду `date`.
+
+================================
+
+Задание *
+1. Отправить http запрос на сервер. `http://162.55.220.72:5005/terminal-hw-request`.
+   * команда `curl 'http://162.55.220.72:5005/terminal-hw-request'`.
+   * приходит ответ {"Intro":"Hello!! This is your the first response from server","Tasks":{"Task_1":"Send the next URL in terminal: `http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]}}`.
+   * команда `curl 'http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)'`.
+   * вместо `set_your_String` вводим свое имя.
+   * вместо `set_your_number` вводим свой возраст.
+   * ответ `["Tima","24"]`.
