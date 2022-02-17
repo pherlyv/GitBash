@@ -52,7 +52,7 @@ The total area of the country is 242,500 sq. km. The population is over 67 milli
 20. Вывести дату и время
     * ввести команду `date`.
 
-================================
+==============================================================================================================
 
 Задание *
 1. Отправить http запрос на сервер. `http://162.55.220.72:5005/terminal-hw-request`.
@@ -67,7 +67,7 @@ The total area of the country is 242,500 sq. km. The population is over 67 milli
    * создать файл, команда `touch script`.
    * открыть файл, команда `vim script`.
    * нажать клавишу `i`.
-```css
+```
 #!/bin/bash
 pwd
 mkdir group_27_1
